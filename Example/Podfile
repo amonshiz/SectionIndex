@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'ListSectionIndexView_Example' do
-  pod 'ListSectionIndexView', :path => '../'
+target 'ListSectionIndex_Example' do
+  pod 'ListSectionIndex', :path => '../'
 
-  target 'ListSectionIndexView_Tests' do
+  target 'ListSectionIndex_Tests' do
     inherit! :search_paths
 
     

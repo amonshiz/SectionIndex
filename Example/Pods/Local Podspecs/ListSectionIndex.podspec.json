@@ -1,0 +1,22 @@
+{
+  "name": "ListSectionIndex",
+  "version": "0.1.0",
+  "summary": "A short description of ListSectionIndex.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Andrew Monshizadeh/ListSectionIndex",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrew Monshizadeh": "amonshiz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Andrew Monshizadeh/ListSectionIndex.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ListSectionIndex/Classes/**/*"
+}
