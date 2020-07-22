@@ -12,10 +12,16 @@ struct ContactList: Decodable {
   let results: [Contact]
 }
 
-struct Contact: Decodable {
+struct Contact: Decodable, Hashable {
   let title: String
   let first: String
   let last: String
+
+  init(title: String, first: String, last: String) {
+    self.title = title
+    self.first = first
+    self.last = last
+  }
 
   private enum NameCodingKeys: String, CodingKey {
     case name
@@ -36,8 +42,6 @@ struct Contact: Decodable {
     let first = try innerContainer.decode(String.self, forKey: InnerCodingKeys.first)
     let last = try innerContainer.decode(String.self, forKey: InnerCodingKeys.last)
 
-    self.title = title
-    self.first = first
-    self.last = last
+    self.init(title: title, first: first, last: last)
   }
 }

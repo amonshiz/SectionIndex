@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import SwiftUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
+  private func rootSwiftUIView(with contactMap: [String: [Contact]]) -> some View {
+    return Group {
+      if #available(iOS 14.0, *) {
+        ScrollViewWithSectionIndex(contactMap)
+      } else {
+        Text("Only available in iOS 14+")
+      }
+    }
+  }
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
@@ -36,7 +46,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       }
 
     let window = UIWindow()
-    window.rootViewController = ViewController(contactMap: contactMap)
+    let tabVC = UITabBarController()
+    let iOS13VC = ViewController(contactMap: contactMap)
+    iOS13VC.tabBarItem = UITabBarItem(title: "iOS 13-", image: UIImage(systemName: "gobackward.minus"), tag: 0)
+
+    let iOS14VC = UIHostingController(rootView: rootSwiftUIView(with: contactMap))
+    iOS14VC.tabBarItem = UITabBarItem(title: "iOS 14", image: UIImage(systemName: "hand.thumbsup.fill"), tag: 1)
+
+    tabVC.setViewControllers([iOS13VC, iOS14VC], animated: false)
+    window.rootViewController = tabVC
     self.window = window
 
     window.makeKeyAndVisible()
@@ -57,7 +75,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func applicationWillEnterForeground(_ application: UIApplication) {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
   }
-
+  
   func applicationDidBecomeActive(_ application: UIApplication) {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
   }

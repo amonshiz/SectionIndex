@@ -41,6 +41,8 @@ class ViewController: UIViewController {
   }
 
   private func setupWith(hostingController: UIViewController) {
+    view.backgroundColor = .white
+
     let tableView = UITableView()
     tableView.translatesAutoresizingMaskIntoConstraints = false
     tableView.rowHeight = UITableView.automaticDimension
