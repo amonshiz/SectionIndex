@@ -1,0 +1,16 @@
+PODS:
+  - ListSectionIndexView (0.1.0)
+
+DEPENDENCIES:
+  - ListSectionIndexView (from `../`)
+
+EXTERNAL SOURCES:
+  ListSectionIndexView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ListSectionIndexView: 81f2becc7d037906bc2249a607c1b61646392cf9
+
+PODFILE CHECKSUM: 9f5f84755f336b0e548d8225d052c2448ff58c5d
+
+COCOAPODS: 1.9.3

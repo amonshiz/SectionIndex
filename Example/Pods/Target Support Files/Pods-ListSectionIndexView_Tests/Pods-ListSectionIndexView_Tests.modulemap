@@ -1,0 +1,6 @@
+framework module Pods_ListSectionIndexView_Tests {
+  umbrella header "Pods-ListSectionIndexView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
