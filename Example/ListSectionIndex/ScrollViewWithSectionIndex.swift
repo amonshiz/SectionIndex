@@ -38,7 +38,7 @@ struct ScrollViewWithSectionIndex: View {
       }
     }
     .overlay(
-      ListSectionIndex(contactSections) { section in
+      SectionIndex(contactSections) { section in
         selectedSection = section
       }
     )

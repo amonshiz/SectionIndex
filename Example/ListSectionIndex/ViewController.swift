@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     let controller =
       UIHostingController(
         rootView:
-          ListSectionIndex<String>(contactSections) { [weak self] section in
+          SectionIndex<String>(contactSections) { [weak self] section in
             guard let index = self?.contactSections.firstIndex(of: section) else { return }
             self?.tableView?.scrollToRow(at: IndexPath(row: 0, section: index), at: .top, animated: false)
           })

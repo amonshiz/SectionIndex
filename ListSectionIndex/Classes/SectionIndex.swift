@@ -1,5 +1,5 @@
 //
-//  ListSectionIndex.swift
+//  SectionIndex.swift
 //  ListSectionIndex
 //
 //  Created by Andrew Monshizadeh on 7/22/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-public struct ListSectionIndex<T: Hashable & CustomStringConvertible>: View {
+public struct SectionIndex<T: Hashable & CustomStringConvertible>: View {
   private let sectionIndices: [T]
 
   public typealias SectionSelectionAction = (T) -> ()
@@ -50,6 +50,6 @@ public struct ListSectionIndex<T: Hashable & CustomStringConvertible>: View {
 
 struct ListSectionIndex_Previews: PreviewProvider {
   static var previews: some View {
-    ListSectionIndex(["A", "B", "C"]) { _ in }
+    SectionIndex(["A", "B", "C"]) { _ in }
   }
 }

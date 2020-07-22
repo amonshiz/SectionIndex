@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052B6E6586931952DC776B33415ED18C /* ListSectionIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43E3DBB952D3B7FD7BF5D07DE516 /* ListSectionIndex.swift */; };
+		052B6E6586931952DC776B33415ED18C /* SectionIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43E3DBB952D3B7FD7BF5D07DE516 /* SectionIndex.swift */; };
 		0DC6D89F10317831F76034FE7D90C2AE /* Pods-ListSectionIndex_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0070018637B4B33F4A727B2C27119E /* Pods-ListSectionIndex_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A1677B4BC4499314CB07E6AD1A9045F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1CEB370DF9E1F40B55DB520735A234DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -47,7 +47,7 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		48C495E390D971CF71F460DCBFDA4326 /* Pods-ListSectionIndex_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ListSectionIndex_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4ABDAB5617CE44BB94E974675EE1BCCA /* Pods_ListSectionIndex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListSectionIndex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CEB43E3DBB952D3B7FD7BF5D07DE516 /* ListSectionIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListSectionIndex.swift; path = ListSectionIndex/Classes/ListSectionIndex.swift; sourceTree = "<group>"; };
+		4CEB43E3DBB952D3B7FD7BF5D07DE516 /* SectionIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionIndex.swift; path = ListSectionIndex/Classes/SectionIndex.swift; sourceTree = "<group>"; };
 		5A8B6F22C57BF51DED13A274CFEACDCE /* ListSectionIndex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListSectionIndex-dummy.m"; sourceTree = "<group>"; };
 		647F5A099ECD8D66C04C56A0AD7CC8EB /* Pods-ListSectionIndex_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ListSectionIndex_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6C5D28AD9283A2D2A493EDD1BC9B8A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		8D29AEC966EC4C679F2A37A5B66F753B /* ListSectionIndex */ = {
 			isa = PBXGroup;
 			children = (
-				4CEB43E3DBB952D3B7FD7BF5D07DE516 /* ListSectionIndex.swift */,
+				4CEB43E3DBB952D3B7FD7BF5D07DE516 /* SectionIndex.swift */,
 				755BE904112C5FA0650B06BAFB97F25E /* Pod */,
 				1741480866F62D3A5169050C403EBCD6 /* Support Files */,
 			);
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B5C365386432E13758E4741EF093B5 /* ListSectionIndex-dummy.m in Sources */,
-				052B6E6586931952DC776B33415ED18C /* ListSectionIndex.swift in Sources */,
+				052B6E6586931952DC776B33415ED18C /* SectionIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
