@@ -36,9 +36,9 @@ public struct ListSectionIndex<T: Hashable & CustomStringConvertible>: View {
             .gesture(
               DragGesture(minimumDistance: 0, coordinateSpace: CoordinateSpace.local)
                 .onChanged{ info in
-                  let indexSize = geoProxy.size.height / CGFloat(sectionIndices.count)
-                  let currentIndex = min(max(Int(info.location.y / indexSize), 0), sectionIndices.count - 1)
-                  sectionAction(sectionIndices[currentIndex])
+                  let indexSize = geoProxy.size.height / CGFloat(self.sectionIndices.count)
+                  let currentIndex = min(max(Int(info.location.y / indexSize), 0), self.sectionIndices.count - 1)
+                  self.sectionAction(self.sectionIndices[currentIndex])
                 }
             )
         }
