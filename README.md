@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-SwiftUI (iOS 13.0+, macOS 10.15+, tvOS 13.0+, watchOS 6.0+)
+SwiftUI (iOS 13.0+, macOS 10.15+)
 Xcode 12+
 Swift 5.1+
 
