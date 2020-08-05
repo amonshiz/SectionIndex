@@ -1,5 +1,5 @@
 PODS:
-  - SectionIndex (0.1.0)
+  - SectionIndex (0.2.0)
 
 DEPENDENCIES:
   - SectionIndex (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SectionIndex: dba58bdce5c5feb0dcc7583673eb01c9e077eb1c
+  SectionIndex: 76456906a70216cf131a2c7a1949c9b613c96447
 
 PODFILE CHECKSUM: 58fc30a1e57e54d53933d211d386370e44eb37c0
 

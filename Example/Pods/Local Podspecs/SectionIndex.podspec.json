@@ -1,6 +1,6 @@
 {
   "name": "SectionIndex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A section index in SwiftUI that easily bridges to UIKit",
   "description": "This library adds a UITableView-like section index that is easily added to a SwiftUI interface or even as a standalone SwiftUI element within an AppKit or UIKit app.",
   "homepage": "https://github.com/amonshiz/SectionIndex",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/amonshiz/SectionIndex.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/amonshiz",
   "platforms": {

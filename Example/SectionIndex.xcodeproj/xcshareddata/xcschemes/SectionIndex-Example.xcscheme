@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67EDB050E4C7E9830EA1ECEC188E1695"
+               BlueprintIdentifier = "0D562650257C6991416A37EB44382AB5"
                BuildableName = "SectionIndex.framework"
                BlueprintName = "SectionIndex"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
