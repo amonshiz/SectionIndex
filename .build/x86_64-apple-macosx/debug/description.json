@@ -1,0 +1,19 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/andrewmonshizadeh\/Documents\/Development\/iOS\/pods\/SectionIndex\/.build\/x86_64-apple-macosx\/debug\/SectionIndexPackageTests.xctest\/Contents\/MacOS\/SectionIndexPackageTests",
+      "packageName" : "SectionIndex",
+      "productName" : "SectionIndexPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.SectionIndex-debug.module" : "SectionIndex",
+    "C.SectionIndexTests-debug.module" : "SectionIndexTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -16,8 +16,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7C882F05A1DCC243739CA506 /* Pods_ListSectionIndex_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C322F0C6B3C212F3BEF22FF /* Pods_ListSectionIndex_Example.framework */; };
-		AC491DEE64C062A9C5875297 /* Pods_ListSectionIndex_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA07B0EE1F708B01F453560D /* Pods_ListSectionIndex_Tests.framework */; };
+		7C882F05A1DCC243739CA506 /* Pods_SectionIndex_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C322F0C6B3C212F3BEF22FF /* Pods_SectionIndex_Example.framework */; };
+		AC491DEE64C062A9C5875297 /* Pods_SectionIndex_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA07B0EE1F708B01F453560D /* Pods_SectionIndex_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,33 +26,33 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = ListSectionIndex;
+			remoteInfo = SectionIndex;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0196B8A5AEBE091C2172D30C /* Pods-ListSectionIndex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListSectionIndex_Tests.release.xcconfig"; path = "Target Support Files/Pods-ListSectionIndex_Tests/Pods-ListSectionIndex_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0196B8A5AEBE091C2172D30C /* Pods-SectionIndex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionIndex_Tests.release.xcconfig"; path = "Target Support Files/Pods-SectionIndex_Tests/Pods-SectionIndex_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D9DE5A856F019717FB44183 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		163567741F620A9AB8A30B96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1BF143DA24C883DB00140A97 /* contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
 		1BF143DC24C883ED00140A97 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		1BF143DE24C8AF9700140A97 /* ScrollViewWithSectionIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithSectionIndex.swift; sourceTree = "<group>"; };
-		4C322F0C6B3C212F3BEF22FF /* Pods_ListSectionIndex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListSectionIndex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C8CE9BCFB4939265DB1D227 /* Pods-ListSectionIndex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListSectionIndex_Example.debug.xcconfig"; path = "Target Support Files/Pods-ListSectionIndex_Example/Pods-ListSectionIndex_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* ListSectionIndex_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListSectionIndex_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C322F0C6B3C212F3BEF22FF /* Pods_SectionIndex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionIndex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8CE9BCFB4939265DB1D227 /* Pods-SectionIndex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionIndex_Example.debug.xcconfig"; path = "Target Support Files/Pods-SectionIndex_Example/Pods-SectionIndex_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* SectionIndex_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectionIndex_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* ListSectionIndex_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListSectionIndex_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* SectionIndex_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SectionIndex_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8F98C8DB3735F5267A1F6941 /* Pods-ListSectionIndex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListSectionIndex_Example.release.xcconfig"; path = "Target Support Files/Pods-ListSectionIndex_Example/Pods-ListSectionIndex_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9F25CFDFEB8BC8E3495A3FD7 /* ListSectionIndex.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ListSectionIndex.podspec; path = ../ListSectionIndex.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA07B0EE1F708B01F453560D /* Pods_ListSectionIndex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListSectionIndex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FCC8A82DD387A26B61964D /* Pods-ListSectionIndex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListSectionIndex_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ListSectionIndex_Tests/Pods-ListSectionIndex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F98C8DB3735F5267A1F6941 /* Pods-SectionIndex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionIndex_Example.release.xcconfig"; path = "Target Support Files/Pods-SectionIndex_Example/Pods-SectionIndex_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F25CFDFEB8BC8E3495A3FD7 /* SectionIndex.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SectionIndex.podspec; path = ../SectionIndex.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA07B0EE1F708B01F453560D /* Pods_SectionIndex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionIndex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FCC8A82DD387A26B61964D /* Pods-SectionIndex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionIndex_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SectionIndex_Tests/Pods-SectionIndex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C882F05A1DCC243739CA506 /* Pods_ListSectionIndex_Example.framework in Frameworks */,
+				7C882F05A1DCC243739CA506 /* Pods_SectionIndex_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC491DEE64C062A9C5875297 /* Pods_ListSectionIndex_Tests.framework in Frameworks */,
+				AC491DEE64C062A9C5875297 /* Pods_SectionIndex_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +78,10 @@
 		04A3CAB130E5853727A96A41 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C8CE9BCFB4939265DB1D227 /* Pods-ListSectionIndex_Example.debug.xcconfig */,
-				8F98C8DB3735F5267A1F6941 /* Pods-ListSectionIndex_Example.release.xcconfig */,
-				D6FCC8A82DD387A26B61964D /* Pods-ListSectionIndex_Tests.debug.xcconfig */,
-				0196B8A5AEBE091C2172D30C /* Pods-ListSectionIndex_Tests.release.xcconfig */,
+				5C8CE9BCFB4939265DB1D227 /* Pods-SectionIndex_Example.debug.xcconfig */,
+				8F98C8DB3735F5267A1F6941 /* Pods-SectionIndex_Example.release.xcconfig */,
+				D6FCC8A82DD387A26B61964D /* Pods-SectionIndex_Tests.debug.xcconfig */,
+				0196B8A5AEBE091C2172D30C /* Pods-SectionIndex_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for ListSectionIndex */,
+				607FACD21AFB9204008FA782 /* Example for SectionIndex */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				04A3CAB130E5853727A96A41 /* Pods */,
@@ -101,13 +101,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* ListSectionIndex_Example.app */,
-				607FACE51AFB9204008FA782 /* ListSectionIndex_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* SectionIndex_Example.app */,
+				607FACE51AFB9204008FA782 /* SectionIndex_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for ListSectionIndex */ = {
+		607FACD21AFB9204008FA782 /* Example for SectionIndex */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -120,8 +120,8 @@
 				1BF143DC24C883ED00140A97 /* Models.swift */,
 				1BF143DE24C8AF9700140A97 /* ScrollViewWithSectionIndex.swift */,
 			);
-			name = "Example for ListSectionIndex";
-			path = ListSectionIndex;
+			name = "Example for SectionIndex";
+			path = SectionIndex;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -152,7 +152,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9F25CFDFEB8BC8E3495A3FD7 /* ListSectionIndex.podspec */,
+				9F25CFDFEB8BC8E3495A3FD7 /* SectionIndex.podspec */,
 				0D9DE5A856F019717FB44183 /* README.md */,
 				163567741F620A9AB8A30B96 /* LICENSE */,
 			);
@@ -162,8 +162,8 @@
 		DAA881A07DB9212D924C4E07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C322F0C6B3C212F3BEF22FF /* Pods_ListSectionIndex_Example.framework */,
-				BA07B0EE1F708B01F453560D /* Pods_ListSectionIndex_Tests.framework */,
+				4C322F0C6B3C212F3BEF22FF /* Pods_SectionIndex_Example.framework */,
+				BA07B0EE1F708B01F453560D /* Pods_SectionIndex_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* ListSectionIndex_Example */ = {
+		607FACCF1AFB9204008FA782 /* SectionIndex_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ListSectionIndex_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SectionIndex_Example" */;
 			buildPhases = (
 				8D8197B72DD516B5E8220806 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -185,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = ListSectionIndex_Example;
-			productName = ListSectionIndex;
-			productReference = 607FACD01AFB9204008FA782 /* ListSectionIndex_Example.app */;
+			name = SectionIndex_Example;
+			productName = SectionIndex;
+			productReference = 607FACD01AFB9204008FA782 /* SectionIndex_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* ListSectionIndex_Tests */ = {
+		607FACE41AFB9204008FA782 /* SectionIndex_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ListSectionIndex_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SectionIndex_Tests" */;
 			buildPhases = (
 				01C5C445C1CBBF14F4FD1647 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -204,9 +204,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = ListSectionIndex_Tests;
+			name = SectionIndex_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* ListSectionIndex_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* SectionIndex_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ListSectionIndex" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SectionIndex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* ListSectionIndex_Example */,
-				607FACE41AFB9204008FA782 /* ListSectionIndex_Tests */,
+				607FACCF1AFB9204008FA782 /* SectionIndex_Example */,
+				607FACE41AFB9204008FA782 /* SectionIndex_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ListSectionIndex_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SectionIndex_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -311,7 +311,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ListSectionIndex_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SectionIndex_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,16 +324,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ListSectionIndex_Example/Pods-ListSectionIndex_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ListSectionIndex/ListSectionIndex.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-SectionIndex_Example/Pods-SectionIndex_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SectionIndex/SectionIndex.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ListSectionIndex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SectionIndex.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListSectionIndex_Example/Pods-ListSectionIndex_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SectionIndex_Example/Pods-SectionIndex_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,7 +363,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* ListSectionIndex_Example */;
+			target = 607FACCF1AFB9204008FA782 /* SectionIndex_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -497,17 +497,17 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C8CE9BCFB4939265DB1D227 /* Pods-ListSectionIndex_Example.debug.xcconfig */;
+			baseConfigurationReference = 5C8CE9BCFB4939265DB1D227 /* Pods-SectionIndex_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BDKG93339Q;
-				INFOPLIST_FILE = ListSectionIndex/Info.plist;
+				INFOPLIST_FILE = SectionIndex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amonshiz.demo.ListSectionIndex-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amonshiz.demo.SectionIndex-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -517,16 +517,16 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F98C8DB3735F5267A1F6941 /* Pods-ListSectionIndex_Example.release.xcconfig */;
+			baseConfigurationReference = 8F98C8DB3735F5267A1F6941 /* Pods-SectionIndex_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ListSectionIndex/Info.plist;
+				INFOPLIST_FILE = SectionIndex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amonshiz.demo.ListSectionIndex-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amonshiz.demo.SectionIndex-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -536,7 +536,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6FCC8A82DD387A26B61964D /* Pods-ListSectionIndex_Tests.debug.xcconfig */;
+			baseConfigurationReference = D6FCC8A82DD387A26B61964D /* Pods-SectionIndex_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = BDKG93339Q;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -553,13 +553,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListSectionIndex_Example.app/ListSectionIndex_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SectionIndex_Example.app/SectionIndex_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0196B8A5AEBE091C2172D30C /* Pods-ListSectionIndex_Tests.release.xcconfig */;
+			baseConfigurationReference = 0196B8A5AEBE091C2172D30C /* Pods-SectionIndex_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -571,14 +571,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListSectionIndex_Example.app/ListSectionIndex_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SectionIndex_Example.app/SectionIndex_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ListSectionIndex" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SectionIndex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ListSectionIndex_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SectionIndex_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ListSectionIndex_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SectionIndex_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

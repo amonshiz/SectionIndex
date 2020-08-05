@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/.build/x86_64-apple-macosx/debug/SectionIndex.build/master.swiftdeps"
+  },
+  "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/Sources/SectionIndex/SectionIndex.swift": {
+    "dependencies": "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/.build/x86_64-apple-macosx/debug/SectionIndex.build/SectionIndex.d",
+    "object": "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/.build/x86_64-apple-macosx/debug/SectionIndex.build/SectionIndex.swift.o",
+    "swiftmodule": "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/.build/x86_64-apple-macosx/debug/SectionIndex.build/SectionIndex~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/.build/x86_64-apple-macosx/debug/SectionIndex.build/SectionIndex.swiftdeps"
+  }
+}

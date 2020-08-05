@@ -1,0 +1,6 @@
+framework module SectionIndex {
+  umbrella header "SectionIndex-umbrella.h"
+
+  export *
+  module * { export * }
+}

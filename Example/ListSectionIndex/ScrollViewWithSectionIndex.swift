@@ -1,13 +1,13 @@
 //
 //  ScrollViewWithSectionIndex.swift
-//  ListSectionIndex_Example
+//  SectionIndex_Example
 //
 //  Created by Andrew Monshizadeh on 7/22/20.
 //  Copyright © 2020 Andrew Monshizadeh. All rights reserved.
 //
 
 import SwiftUI
-import ListSectionIndex
+import SectionIndex
 
 @available (iOS 14.0, *)
 struct ScrollViewWithSectionIndex: View {

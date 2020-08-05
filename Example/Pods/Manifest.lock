@@ -1,16 +1,16 @@
 PODS:
-  - ListSectionIndex (0.1.0)
+  - SectionIndex (0.1.0)
 
 DEPENDENCIES:
-  - ListSectionIndex (from `../`)
+  - SectionIndex (from `../`)
 
 EXTERNAL SOURCES:
-  ListSectionIndex:
+  SectionIndex:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ListSectionIndex: bca68e843d037a51936d1d35804922bd229fbfa1
+  SectionIndex: dba58bdce5c5feb0dcc7583673eb01c9e077eb1c
 
-PODFILE CHECKSUM: 79272ef4b1d992988aba6e8cb91087953b7270fd
+PODFILE CHECKSUM: 58fc30a1e57e54d53933d211d386370e44eb37c0
 
 COCOAPODS: 1.9.3

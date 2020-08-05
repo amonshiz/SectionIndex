@@ -1,6 +1,0 @@
-framework module ListSectionIndex {
-  umbrella header "ListSectionIndex-umbrella.h"
-
-  export *
-  module * { export * }
-}

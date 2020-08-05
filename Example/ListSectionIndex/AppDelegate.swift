@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ListSectionIndex
+//  SectionIndex
 //
 //  Created by Andrew Monshizadeh on 07/22/2020.
 //  Copyright (c) 2020 Andrew Monshizadeh. All rights reserved.

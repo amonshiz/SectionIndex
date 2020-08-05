@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.22.4 clang-1200.0.25.1)"
+options: "9f12e11df06577a899801363c542caf2"
+build_time: [1596597254, 952119000]
+inputs:
+  "/Users/andrewmonshizadeh/Documents/Development/iOS/pods/SectionIndex/Sources/SectionIndex/SectionIndex.swift": [1596596564, 945404281]

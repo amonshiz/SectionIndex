@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67EDB050E4C7E9830EA1ECEC188E1695"
-               BuildableName = "ListSectionIndex.framework"
-               BlueprintName = "ListSectionIndex"
+               BuildableName = "SectionIndex.framework"
+               BlueprintName = "SectionIndex"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "ListSectionIndex_Example.app"
-               BlueprintName = "ListSectionIndex_Example"
-               ReferencedContainer = "container:ListSectionIndex.xcodeproj">
+               BuildableName = "SectionIndex_Example.app"
+               BlueprintName = "SectionIndex_Example"
+               ReferencedContainer = "container:SectionIndex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ListSectionIndex_Tests.xctest"
-               BlueprintName = "ListSectionIndex_Tests"
-               ReferencedContainer = "container:ListSectionIndex.xcodeproj">
+               BuildableName = "SectionIndex_Tests.xctest"
+               BlueprintName = "SectionIndex_Tests"
+               ReferencedContainer = "container:SectionIndex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ListSectionIndex_Tests.xctest"
-               BlueprintName = "ListSectionIndex_Tests"
-               ReferencedContainer = "container:ListSectionIndex.xcodeproj">
+               BuildableName = "SectionIndex_Tests.xctest"
+               BlueprintName = "SectionIndex_Tests"
+               ReferencedContainer = "container:SectionIndex.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ListSectionIndex_Example.app"
-            BlueprintName = "ListSectionIndex_Example"
-            ReferencedContainer = "container:ListSectionIndex.xcodeproj">
+            BuildableName = "SectionIndex_Example.app"
+            BlueprintName = "SectionIndex_Example"
+            ReferencedContainer = "container:SectionIndex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -100,9 +100,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ListSectionIndex_Example.app"
-            BlueprintName = "ListSectionIndex_Example"
-            ReferencedContainer = "container:ListSectionIndex.xcodeproj">
+            BuildableName = "SectionIndex_Example.app"
+            BlueprintName = "SectionIndex_Example"
+            ReferencedContainer = "container:SectionIndex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

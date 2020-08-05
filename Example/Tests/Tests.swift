@@ -1,5 +1,5 @@
 import XCTest
-import ListSectionIndex
+import SectionIndex
 
 class Tests: XCTestCase {
     
