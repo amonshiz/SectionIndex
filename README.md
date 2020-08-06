@@ -11,7 +11,7 @@ A simple section index in SwiftUI that easily bridges to UIKit
 
 To run the example project use `pod try SectionIndex`
 
-![Example Project](Images/Simulator Screen Shot - iPhone 11 - 2020-08-05 at 21.23.50.png)
+![Example Project](Images/example-project.png)
 
 ## Requirements
 
