@@ -9,11 +9,13 @@ A simple section index in SwiftUI that easily bridges to UIKit
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project use `pod try SectionIndex`
+
+![Example Project](Images/Simulator Screen Shot - iPhone 11 - 2020-08-05 at 21.23.50.png)
 
 ## Requirements
 
-SwiftUI (iOS 13.0+, tvOS 13.0+, watchOS 6+, macOS 10.15+)
+SwiftUI (iOS 13.0+, watchOS 6+, macOS 10.15+)
 Xcode 12+
 Swift 5.1+
 

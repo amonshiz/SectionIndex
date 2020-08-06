@@ -24,27 +24,35 @@ public struct SectionIndex<T: Hashable & CustomStringConvertible>: View {
   public var body: some View {
     HStack {
       Spacer()
+
       VStack {
-        ForEach(sectionIndices, id: \.hashValue) { index in
-          Text("\(index.description)")
-            .padding([.leading, .trailing], 6)
+        Spacer()
+        VStack(spacing: 0.5) {
+          ForEach(sectionIndices, id: \.hashValue) { index in
+            Text("\(index.description)")
+              .font(.system(size: 11.0, weight: .semibold, design: .default))
+          }
+          .padding([.trailing], 2)
         }
+        .padding([.top], 3.0)
+        .background(
+          GeometryReader { geoProxy in
+            Color.clear
+              .contentShape(Rectangle())
+              .frame(width: geoProxy.size.width, height: geoProxy.size.height, alignment: .center)
+              .gesture(
+                DragGesture(minimumDistance: 0, coordinateSpace: CoordinateSpace.local)
+                  .onChanged{ info in
+                    let indexSize = geoProxy.size.height / CGFloat(self.sectionIndices.count)
+                    let currentIndex = min(max(Int(info.location.y / indexSize), 0), self.sectionIndices.count - 1)
+                    self.sectionAction(self.sectionIndices[currentIndex])
+                  }
+              )
+          }
+        )
+
+        Spacer()
       }
-      .background(
-        GeometryReader { geoProxy in
-          Color.clear
-            .contentShape(Rectangle())
-            .frame(width: geoProxy.size.width, height: geoProxy.size.height, alignment: .center)
-            .gesture(
-              DragGesture(minimumDistance: 0, coordinateSpace: CoordinateSpace.local)
-                .onChanged{ info in
-                  let indexSize = geoProxy.size.height / CGFloat(self.sectionIndices.count)
-                  let currentIndex = min(max(Int(info.location.y / indexSize), 0), self.sectionIndices.count - 1)
-                  self.sectionAction(self.sectionIndices[currentIndex])
-                }
-            )
-        }
-      )
     }
     .foregroundColor(.blue)
   }

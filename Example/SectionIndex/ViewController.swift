@@ -57,17 +57,17 @@ class ViewController: UIViewController {
     ])
     self.tableView = tableView
 
-    hostingController.view.translatesAutoresizingMaskIntoConstraints = false
-    hostingController.view.backgroundColor = .clear
-
-    addChild(hostingController)
-    view.addSubview(hostingController.view)
-    hostingController.didMove(toParent: self)
-
-    NSLayoutConstraint.activate([
-      hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-      hostingController.view.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
-    ])
+//    hostingController.view.translatesAutoresizingMaskIntoConstraints = false
+//    hostingController.view.backgroundColor = .clear
+//
+//    addChild(hostingController)
+//    view.addSubview(hostingController.view)
+//    hostingController.didMove(toParent: self)
+//
+//    NSLayoutConstraint.activate([
+//      hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+//      hostingController.view.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
+//    ])
   }
 }
 
@@ -106,6 +106,10 @@ extension ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
     guard section < contactSections.count else { return nil }
     return contactSections[section]
+  }
+
+  func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+    return contactSections
   }
 }
 

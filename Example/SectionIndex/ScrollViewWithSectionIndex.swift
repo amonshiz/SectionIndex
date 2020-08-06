@@ -22,14 +22,14 @@ struct ScrollViewWithSectionIndex: View {
   @State private var selectedSection: String?
 
   var body: some View {
-    ScrollView {
-      ScrollViewReader { scrollViewProxy in
+    ScrollViewReader { scrollViewProxy in
+      List {
         ForEach(contactSections, id: \.self) { section in
-          SectionHeader(sectionTitle: section)
-          ForEach(contactMap[section]!, id: \.self) { contact in
-            ContactRow(contact: contact)
-              .padding([.leading])
-              .padding([.top, .bottom], 5)
+          Section(header: Text(section)) {
+            ForEach(contactMap[section]!, id: \.self) { contact in
+              (Text(contact.first) + Text(" ") + Text(contact.last))
+                .padding([.top, .bottom], 2)
+            }
           }
         }
         .onChange(of: selectedSection) { section in
@@ -42,35 +42,6 @@ struct ScrollViewWithSectionIndex: View {
         selectedSection = section
       }
     )
-  }
-}
-
-struct SectionHeader: View {
-  let sectionTitle: String
-
-  var body: some View {
-    HStack {
-      Text(sectionTitle)
-        .padding([.leading])
-      Spacer()
-    }
-    .id(sectionTitle)
-    .padding([.top, .bottom], 5)
-    .background(
-      Color(UIColor.secondarySystemFill)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-    )
-  }
-}
-
-struct ContactRow: View {
-  let contact: Contact
-
-  var body: some View {
-    HStack {
-      Text(contact.first) + Text(" ") + Text(contact.last)
-      Spacer()
-    }
   }
 }
 
