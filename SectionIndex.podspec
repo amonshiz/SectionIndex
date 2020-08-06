@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SectionIndex'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A section index in SwiftUI that easily bridges to UIKit'
 
   s.description      = 'This library adds a UITableView-like section index that ' \
